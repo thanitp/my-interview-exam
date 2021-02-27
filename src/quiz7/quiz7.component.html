@@ -1,0 +1,25 @@
+<table border="1">
+	<tr>
+		<th>
+			No.
+		</th>
+		<th>
+			Input
+		</th>
+		<th>
+			Output
+		</th>
+	</tr>
+	<tr *ngFor="let rec of output;let i = index">
+		<td>
+			{{i+1}}
+		</td>
+		<td>
+			{{n[i]}}<br>
+			{{input[i]}}
+		</td>
+		<td>
+			{{rec}}
+		</td>
+	</tr>
+</table>
